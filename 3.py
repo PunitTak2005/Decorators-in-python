@@ -1,11 +1,17 @@
-import time
 
-def timer(func):
+def debug(func):
     def wrapper(*args, **kwargs):
-        start_time = time.time()
-        result = func(*args, **kwargs)
-        end_time = time.time()
-        
-        print(f"{func.__name__} ran in {end-start} time")
-        return result
+        return func(*args, **kwargs)        
+    
     return wrapper
+
+
+
+
+
+
+def greet(name, greeting="Hello'0:"):
+    print(f"{greeting},{name}")
+
+
+greet("chai", greeting="hanji")
