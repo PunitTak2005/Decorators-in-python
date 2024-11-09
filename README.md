@@ -27,11 +27,11 @@ def greet():
 
 greet()
 
-
-Contributing
+```
+### Contributing
 Feel free to fork this repository, open issues, and submit pull requests. Contributions to extend the collection of decorators are welcome!
 
-License
+### License
 This project is open source and available under the MIT License.
 
 
